@@ -12,6 +12,6 @@
         </ul>
     @endif
     
-    {!! link_to_route('tasks.create', '新規のタスク作成', ['id' => $task->id]) !!}
+    {!! link_to_route('tasks.create', '新規タスクの追加',null,['class' => 'btn btn-primary']) !!}
 
 @endsection
